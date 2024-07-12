@@ -8,7 +8,7 @@ function checkAnswer(){
     if (userAnswer === correctAnswer){
         feedbackElement.textContent="Correct! Well done.";
     }else{
-        feedbackElement.textContent="That is incorrect.Try again!";
+        feedbackElement.textContent=["That's incorrect. Try again!"];
     }
 }
 //Adding an event listener to the submit button
