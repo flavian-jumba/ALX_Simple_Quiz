@@ -6,9 +6,9 @@ function checkAnswer(){
     //Checking if the user's answer is correct
     const feedbackElement=document.getElementById('feedback');
     if (userAnswer === correctAnswer){
-        feedbackElement.textContent='Correct! Well done.';
+        feedbackElement.textContent="Correct! Well done.";
     }else{
-        feedbackElement.textContent='That is incorrect.Try again!';
+        feedbackElement.textContent="That is incorrect.Try again!";
     }
 }
 //Adding an event listener to the submit button
